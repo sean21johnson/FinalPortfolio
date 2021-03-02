@@ -11,7 +11,7 @@ class ProjectItem extends Component {
 		return (
 			<div className="Project_Item">
 				<div className="ProjectItem_Image_Div">
-					<img className="Project_Image" src={image} alt="Project Pic"></img>
+					<img className="Project_Image" src={image} alt={`${title} Pic`}></img>
 				</div>
 				<h5>{title}</h5>
 				<div className="ProjectItem_Info_Div">

@@ -35,9 +35,10 @@ class PhotoSummary extends Component {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="logo_button  linkedin_logo_button">
+								<button aria-label="linkedIn logo" className="logo_button  linkedin_logo_button">
 									<FontAwesomeIcon className="linkedin" icon={faLinkedin} />
 								</button>
+								<span className="sr-only">Visit https://linkedin.com/in/seanjohnson220</span>
 							</a>
 							<a
 								className="email_logo"
@@ -45,12 +46,13 @@ class PhotoSummary extends Component {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="logo_button email_logo_button">
+								<button aria-label="email logo" className="logo_button email_logo_button">
 									<FontAwesomeIcon
 										className="logo_email"
 										icon={faEnvelopeSquare}
 									/>
 								</button>
+								<span className="sr-only">Send mail to seanjohnson220@gmail.com</span>
 							</a>
 							<a
 								className="github_logo"
@@ -58,9 +60,10 @@ class PhotoSummary extends Component {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="logo_button github_logo_button">
+								<button aria-label="github logo" className="logo_button github_logo_button">
 									<FontAwesomeIcon className="logo_github" icon={faGithub} />
 								</button>
+								<span className="sr-only">Visit https://github.com/sean21johnson</span>
 							</a>
 						</div>
 					</div>

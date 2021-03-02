@@ -10,7 +10,7 @@ class TechSkillsItem extends Component {
 					<img
 						className="TechnicalSkills_Image"
 						src={image}
-						alt="Tech Skill Pic"
+						alt={`${title} Icon`} 
 					></img>
 				</div>
 				<h6>{title}</h6>
