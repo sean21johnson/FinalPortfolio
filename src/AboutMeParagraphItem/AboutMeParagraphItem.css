@@ -5,8 +5,7 @@
 }
 
 .Item_Header {
-	/* background-color: #42a5f5; */
-	background-color: navy;
+	background-color: #42a5f5;
 	color: white;
 	font-size: 20px;
 	display: flex;

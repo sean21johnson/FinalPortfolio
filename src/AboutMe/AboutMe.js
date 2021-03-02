@@ -28,7 +28,7 @@ class AboutMe extends Component {
 			<section className="AboutMe">
 				<AboutMeParagraphItem
 					header={`Who Am I?`}
-					description={`I am a full-stack web developer currently based in Manhattan, New York. NYU Stern MBA with ten years of professional experience in financial services, and 
+					description={`I am a full stack software developer currently based in Manhattan, New York. NYU Stern MBA with ten years of professional experience in financial services, and 
                     a newfound passion for programming and software engineering. I am excited and motivated to bring FinTech value to a firm in 2021.`}
 					id={"1"}
 					setId={this.setId}
