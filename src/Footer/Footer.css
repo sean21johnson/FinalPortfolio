@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    background-color:#2196f3;
+    padding: 16px;
+}
+
+.Copyright {
+    color: hsla(0,0%,100%,.6);
+}
+
+@media all and (min-width: 700px) {
+    footer {
+        padding: 20px;
+    }
+
+    .Copyright {
+        font-size: 18px;
+    }
+}
