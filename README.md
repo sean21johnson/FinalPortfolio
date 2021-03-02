@@ -13,7 +13,6 @@ This is my portfolio website that I built using React. On my site, you can find 
 <img width="800px" alt="Top Area" src="https://imgur.com/wvSZNtH.jpg">
 
 <img align="left" width="400px" alt="Profile" src="https://imgur.com/tHpVuyG.jpg">
-
 <img align="right" width="400px" alt="About Me" src="https://imgur.com/xETKBSJ.jpg">
 
 <img width="800px" alt="Tech Skills" src="https://imgur.com/Y0ITszK.jpg">
