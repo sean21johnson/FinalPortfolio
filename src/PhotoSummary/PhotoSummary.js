@@ -18,7 +18,7 @@ class PhotoSummary extends Component {
                                 <h3>Web Developer</h3>
                                 <p className="PhotoSummary_Paragraph">Full-Stack web developer who consistently delivers breakthrough results by utilizing creative 
                                 problem-solving approaches, disciplined processes, and a resolute work ethic. Team-oriented leader who builds 
-                                outstanding relationships with internal stakeholders and external clients by leveraging highly effective communication and interpersonal skills
+                                outstanding relationships with internal stakeholders and external clients by leveraging highly effective communication and interpersonal skills.
                                 </p>
                             <div className="PhotoSummary_Icons">
                                     <a
