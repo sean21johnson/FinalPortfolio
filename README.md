@@ -2,7 +2,7 @@
 
 ---
 
-[View my portfolio site here](https://addresshero-client.vercel.app)
+[View my portfolio site here](https://final-portfolio-sigma.vercel.app)
 
 This is my portfolio website that I built using React. On my site, you can find more information about me. I have broken the site down into three sections: 'About Me', 'Technical Skills', and 'Recent Projects'. Also provided are links to my GitHub and LinkedIn pages, as well as a link to send me an email - feel free to contact me at any time! 
 

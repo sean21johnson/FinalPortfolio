@@ -7,7 +7,7 @@ class AboutMePersonalItem extends Component {
     
     render() {
         
-        const { header, setId, id, stateId, list } = this.props;
+        const { header, setId, id, stateId } = this.props;
 
         console.log('props are ', this.props)
         
