@@ -2,8 +2,7 @@ import React, { Component } from "react";
 
 class TechSkillsItem extends Component {
 	render() {
-
-        const { image, title } = this.props;
+		const { image, title } = this.props;
 
 		return (
 			<div className="TechnicalSkills_Item">

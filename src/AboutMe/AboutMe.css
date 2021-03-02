@@ -1,21 +1,21 @@
 .AboutMe {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .hidden {
-    display: none;
+	display: none;
 }
 
 .Item_Header {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 @media all and (min-width: 800px) {
-    section.AboutMe {
-        flex: 1;
-        margin-top: 400px;
-    }
+	section.AboutMe {
+		flex: 1;
+		margin-top: 400px;
+	}
 }

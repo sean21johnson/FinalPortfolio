@@ -1,62 +1,61 @@
 body {
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
 }
 
 html {
-    scroll-padding-top: 57px;
+	scroll-padding-top: 57px;
 }
 
 div.TopArea {
-    padding-top: 40px;
-    margin-bottom: 60px;
-    padding-top: 100px;
+	padding-top: 40px;
+	margin-bottom: 60px;
+	padding-top: 100px;
 }
 
 @media all and (min-width: 500px) {
-    div.TopArea {
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	div.TopArea {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media all and (min-width: 800px) {
-    div.TopArea {
-        padding-top: 125px;
-        width: 800px;
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 70px;
-    }
+	div.TopArea {
+		padding-top: 125px;
+		width: 800px;
+		display: flex;
+		flex-direction: row;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 70px;
+	}
 }
 
 @media all and (min-width: 1000px) {
-    div.TopArea {
-        padding-top: 150px;
-        width: 1000px;
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 80px;
-    }
+	div.TopArea {
+		padding-top: 150px;
+		width: 1000px;
+		display: flex;
+		flex-direction: row;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 80px;
+	}
 }
 
 @media all and (min-width: 1200px) {
-    div.TopArea {
-        padding-top: 175px;
-        width: 1100px;
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	div.TopArea {
+		padding-top: 175px;
+		width: 1100px;
+		display: flex;
+		flex-direction: row;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    html {
-        scroll-padding-top: 72px;  
-    }
+	html {
+		scroll-padding-top: 72px;
+	}
 }
-

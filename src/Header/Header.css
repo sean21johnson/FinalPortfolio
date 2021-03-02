@@ -1,16 +1,15 @@
 header {
 	display: flex;
 	flex-direction: row;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
 	background: linear-gradient(40deg, #45cafc, #303f9f);
-    width: 100%;
-    box-shadow: 1px 1px 10px 1px rgb(160, 160, 160);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: fixed;
+	width: 100%;
+	box-shadow: 1px 1px 10px 1px rgb(160, 160, 160);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: fixed;
 }
-
 
 ul.Header_UnorderedList {
 	display: flex;
@@ -19,58 +18,58 @@ ul.Header_UnorderedList {
 	margin-top: 0px;
 	list-style-type: none;
 	margin-bottom: 0px;
-    padding-left: 0px;
+	padding-left: 0px;
 }
 
 li.Header_ListItem {
-    padding-right: 12px;
-    font-size: 12px;
+	padding-right: 12px;
+	font-size: 12px;
 }
 
 h1.Header_Title {
 	margin-top: 0px;
 	margin-bottom: 0px;
-    font-size: 20px;
-    color: white;
-    padding-left: 15px;
-    font-weight: 100;
-    text-shadow: 2px 2px grey;
+	font-size: 20px;
+	color: white;
+	padding-left: 15px;
+	font-weight: 100;
+	text-shadow: 2px 2px grey;
 }
 
 a {
 	text-decoration: none;
-    color: white;
+	color: white;
 }
 
 @media all and (min-width: 500px) {
-    li.Header_ListItem {
-        font-size: 15px;
-        padding-right: 15px;
-    }
+	li.Header_ListItem {
+		font-size: 15px;
+		padding-right: 15px;
+	}
 }
 
 @media all and (min-width: 800px) {
-    li.Header_ListItem {
-        font-size: 17px;
-        padding-right: 17px;
-    }
-    h1.Header_Title {
-        font-size: 22px; 
-        padding-left: 20px;  
-    }
+	li.Header_ListItem {
+		font-size: 17px;
+		padding-right: 17px;
+	}
+	h1.Header_Title {
+		font-size: 22px;
+		padding-left: 20px;
+	}
 }
 
 @media all and (min-width: 1200px) {
-    li.Header_ListItem {
-        font-size: 20px;
-        padding-right: 45px;
-    }
-    h1.Header_Title {
-        font-size: 26px; 
-        padding-left: 30px;  
-    }
-    header {
-        padding-top: 18px;
-        padding-bottom: 18px;
-    }
+	li.Header_ListItem {
+		font-size: 20px;
+		padding-right: 45px;
+	}
+	h1.Header_Title {
+		font-size: 26px;
+		padding-left: 30px;
+	}
+	header {
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
 }

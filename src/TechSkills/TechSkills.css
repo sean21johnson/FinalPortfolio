@@ -1,59 +1,58 @@
 img.TechnicalSkills_Image {
-    border-radius: 50%;
-    border: 3px solid ghostwhite;
-    width: 100px;
-    height: 100px;
-    box-shadow: 1px 1px 10px 1px rgb(165, 165, 165);
+	border-radius: 50%;
+	border: 3px solid ghostwhite;
+	width: 100px;
+	height: 100px;
+	box-shadow: 1px 1px 10px 1px rgb(165, 165, 165);
 }
 
 .TechnicalSkills_List {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .TechnicalSkills_Item {
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 15px;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 15px;
 }
 
 h2.TechnicalSkills_Header {
-    text-align: center;
-    padding-bottom: 25px;
-    font-size: 25px;
-    padding-top: 30px;
-    font-weight: 100;
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 25px;
+	padding-top: 30px;
+	font-weight: 100;
 }
 
 section.TechSkills {
-    background-color: ghostwhite;
-    padding-bottom: 30px;
+	background-color: ghostwhite;
+	padding-bottom: 30px;
 }
 
 h6 {
-    font-size: 14px;
-    font-weight: 100;
-    margin-top: 0px;
-    padding-top: 15px;
+	font-size: 14px;
+	font-weight: 100;
+	margin-top: 0px;
+	padding-top: 15px;
 }
 
-
 @media all and (min-width: 1200px) {
-    section.TechSkills {
-        padding-left: 200px;
-        padding-right: 200px;
-        padding-bottom: 40px;
-    }
+	section.TechSkills {
+		padding-left: 200px;
+		padding-right: 200px;
+		padding-bottom: 40px;
+	}
 
-    h2.TechnicalSkills_Header {
-        padding-top: 60px;
-        padding-bottom: 50px;
-        font-size: 28px;
-    }
+	h2.TechnicalSkills_Header {
+		padding-top: 60px;
+		padding-bottom: 50px;
+		font-size: 28px;
+	}
 
-    h6 {
-        font-size: 18px;
-    }
+	h6 {
+		font-size: 18px;
+	}
 }
