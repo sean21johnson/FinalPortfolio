@@ -1,0 +1,37 @@
+.Nav_Color {
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+    box-shadow: 1px 1px 10px 1px rgb(160, 160, 160);
+}
+
+.Nav_Name {
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+.nav-logo {
+    font-size: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: ghostwhite;
+}
+
+@media all and (min-width: 768px) {
+    .navbar-dark .navbar-brand {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 22px;
+    }
+
+    .Nav_Color {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .nav-logo {
+        font-size: 35px;
+        margin-right: 15px;
+    }
+
+}
+

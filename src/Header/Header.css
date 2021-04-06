@@ -1,4 +1,4 @@
-header {
+/* nav {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -11,19 +11,9 @@ header {
 	position: fixed;
 }
 
-ul.Header_UnorderedList {
-	display: flex;
-	flex-direction: row;
-	font-size: 10px;
-	margin-top: 0px;
-	list-style-type: none;
-	margin-bottom: 0px;
-	padding-left: 0px;
-}
-
-li.Header_ListItem {
-	padding-right: 12px;
-	font-size: 12px;
+a {
+	text-decoration: none;
+	color: white;
 }
 
 h1.Header_Title {
@@ -36,40 +26,50 @@ h1.Header_Title {
 	text-shadow: 2px 2px grey;
 }
 
-a {
-	text-decoration: none;
-	color: white;
+.fa-bars, .fa-times {
+	font-size: 25px;
+	color: ghostwhite;
+	padding-right: 25px;
 }
 
-@media all and (min-width: 500px) {
-	li.Header_ListItem {
-		font-size: 15px;
-		padding-right: 15px;
-	}
+.Header_UnorderedList {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 41px;
+	right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+	list-style: none;
+}
+
+.Header_ListItem {
+	padding: 10px;
+}
+
+.Header_UnorderedList.active {
+	background:#42a5f5;
+	right: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
 }
 
 @media all and (min-width: 800px) {
-	li.Header_ListItem {
-		font-size: 17px;
-		padding-right: 17px;
+	.fa-bars, .fa-times {
+		display: none;
 	}
-	h1.Header_Title {
-		font-size: 22px;
-		padding-left: 20px;
-	}
-}
 
-@media all and (min-width: 1200px) {
-	li.Header_ListItem {
-		font-size: 20px;
-		padding-right: 45px;
+	.Header_UnorderedList {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 41px;
+		opacity: 1;
+		transition: all 0.5s ease;
+		list-style: none;
 	}
-	h1.Header_Title {
-		font-size: 26px;
-		padding-left: 30px;
-	}
-	header {
-		padding-top: 18px;
-		padding-bottom: 18px;
-	}
-}
+} */
+
+
+

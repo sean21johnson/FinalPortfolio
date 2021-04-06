@@ -5,7 +5,8 @@ import PhotoSummary from "./../PhotoSummary/PhotoSummary";
 import AboutMe from "./../AboutMe/AboutMe";
 import TechSkills from "./../TechSkills/TechSkills";
 import Projects from "./../Projects/Projects";
-import Header from "./../Header/Header";
+// import Header from "./../Header/Header";
+import NavBar from './../NavBar/NavBar';
 
 class App extends Component {
 	state = {};
@@ -13,7 +14,7 @@ class App extends Component {
 		return (
 			<>
 				<section className="App">
-					<Header></Header>
+					<NavBar></NavBar>
 					<article id="About_Me">
 						<div className="TopArea">
 							<PhotoSummary></PhotoSummary>
