@@ -44,7 +44,7 @@ class AboutMeAccordian extends Component {
 									<strong>Back end: </strong>NodeJS with Express
 								</li>
 								<li>
-									<strong>Database</strong>SQL(mySQL)
+									<strong>Database: </strong>SQL(mySQL)
 								</li>
 								<li>
 									<strong>Hosting: </strong>Heroku, Vercel
