@@ -1,0 +1,39 @@
+.theAccordian {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 1px 1px 10px 1px rgb(165, 165, 165);
+    border-radius: 7px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.Accordian_Header {
+    font-size: 18px;
+    color: ghostwhite;
+	background-color: #42a5f5;
+}
+
+.Accordian_Body {
+    font-size: 14px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+@media all and (min-width: 1000px) {
+    .theAccordian {
+        width: 400px;
+        margin-left: 25px;
+    }
+
+    .Accordian_Header {
+        font-size: 22px;
+    }
+
+    .Accordian_Body {
+        font-size: 18px;
+    }
+}

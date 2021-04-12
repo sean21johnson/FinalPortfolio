@@ -19,7 +19,7 @@ class PhotoSummary extends Component {
 				<article id="Contact">
 					<div className="PhotoSummary_Bio">
 						<h1 className="Main_Name">Sean Johnson</h1>
-						<h3>Web Developer</h3>
+						<h3>Software Developer</h3>
 						<p className="PhotoSummary_Paragraph">
 							Full stack software developer who consistently delivers breakthrough
 							results by utilizing creative problem-solving approaches,

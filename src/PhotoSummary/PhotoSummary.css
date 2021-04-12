@@ -24,6 +24,7 @@ img.Personal_Pic {
 .PhotoSummary {
 	margin-left: auto;
 	margin-right: auto;
+	width: 400px;
 }
 
 h1.Main_Name {
@@ -36,6 +37,7 @@ h1.Main_Name {
 h3 {
 	font-size: 16px;
 	color: rgb(250, 138, 1);
+	padding-top: 5px;
 }
 
 .PhotoSummary_Bio {

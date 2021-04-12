@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as ReactBootStrap from "react-bootstrap";
-import { faGit, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Resume from "../Resume/SeanJohnson.Resume.pdf"

@@ -5,8 +5,8 @@ import PhotoSummary from "./../PhotoSummary/PhotoSummary";
 import AboutMe from "./../AboutMe/AboutMe";
 import TechSkills from "./../TechSkills/TechSkills";
 import Projects from "./../Projects/Projects";
-// import Header from "./../Header/Header";
 import NavBar from './../NavBar/NavBar';
+import AboutMeAccordian from './../AboutMeAccordian/AboutMeAccordian';
 
 class App extends Component {
 	state = {};
@@ -18,7 +18,8 @@ class App extends Component {
 					<article id="About_Me">
 						<div className="TopArea">
 							<PhotoSummary></PhotoSummary>
-							<AboutMe></AboutMe>
+							<AboutMeAccordian></AboutMeAccordian>
+							{/* <AboutMe></AboutMe> */}
 						</div>
 					</article>
 					<TechSkills></TechSkills>
