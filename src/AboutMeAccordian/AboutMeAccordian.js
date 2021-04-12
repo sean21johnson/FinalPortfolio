@@ -71,8 +71,8 @@ class AboutMeAccordian extends Component {
 					<ReactBootStrap.Accordion.Collapse eventKey="2">
 						<ReactBootStrap.Card.Body
                         className="Accordian_Body">
-                        I enjoy collaborating with and learning from other developers and financial professionals. Proponent of a communicative, team-based approach
-                    to problem-solving. Diversity of thought yields the best and most creative solutions to the problems we face.
+                        I enjoy collaborating with and learning from other software developers. Proponent of a communicative, team-based approach
+                    to problem-solving. Diversity of thought yields the best and most creative solutions to the problems that we face.
 						</ReactBootStrap.Card.Body>
 					</ReactBootStrap.Accordion.Collapse>
 				</ReactBootStrap.Card>
@@ -88,8 +88,8 @@ class AboutMeAccordian extends Component {
 						<ReactBootStrap.Card.Body
                         className="Accordian_Body">
                         <ul className="Accordian_List">
-                            <li>Thinkful's Software Engineering Immersive Program 2021 graduate specializing in Full-Stack Web Development</li>
-                            <li>NYU Stern 2018 graduate specializing in Corporate Finance and Financial Instruments & Markets</li>
+                            <li>Thinkful's Software Engineering Immersive Program 2021 graduate specializing in Full-Stack Web Development & JavaScript</li>
+                            <li>NYU Stern School of Business 2018 MBA graduate specializing in Corporate Finance and Financial Instruments & Markets</li>
                             <li>Lifelong passion for the game of basketball</li>
                             <li>Fan of the Brooklyn Nets & the New York Jets</li>
                             <li>Enjoy exercising and exploring new places</li>
