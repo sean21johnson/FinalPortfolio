@@ -88,7 +88,7 @@ class AboutMeAccordian extends Component {
 						<ReactBootStrap.Card.Body
                         className="Accordian_Body">
                         <ul className="Accordian_List">
-                            <li>Thinkful's Software Engineering Immersive Program 2021 graduate specializing in Full-Stack Web Development & JavaScript</li>
+                            <li>Thinkful's Software Engineering Immersive Program 2021 graduate specializing in full stack JavaScript & web development</li>
                             <li>NYU Stern School of Business 2018 MBA graduate specializing in Corporate Finance and Financial Instruments & Markets</li>
                             <li>Lifelong passion for the game of basketball</li>
                             <li>Fan of the Brooklyn Nets & the New York Jets</li>
