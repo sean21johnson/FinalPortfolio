@@ -20,7 +20,7 @@ class AboutMeAccordian extends Component {
                         className="Accordian_Body">
 							I am a software developer currently based in Manhattan,
 							New York. In March 2021, I completed Thinkful's Software Engineering Immersive Program where I learned
-                            full stack JavaScript and web development. I am looking for an opportunity to apply the skills that I have learned in a professional environment and am excited to add value to an engineering team.
+                            full stack JavaScript and web development. I am looking for an opportunity to apply the programming skills that I have learned in a professional environment and am excited to add value to an engineering team.
 						</ReactBootStrap.Card.Body>
 					</ReactBootStrap.Accordion.Collapse>
 				</ReactBootStrap.Card>
