@@ -38,7 +38,7 @@ class AboutMeAccordian extends Component {
 							<ul className="Accordian_List">
 								<li>
 									<strong>Front end: </strong>React, jQuery, vanilla JavaScript,
-									HTML, CSS
+									Bootstrap, HTML, CSS
 								</li>
 								<li>
 									<strong>Back end: </strong>NodeJS with Express
@@ -54,7 +54,7 @@ class AboutMeAccordian extends Component {
 									Mocha/Chai on the Back End
 								</li>
 								<li>
-									<strong>Currently Learning: </strong>TypeScript, AWS
+									<strong>Currently Learning: </strong>TypeScript
 								</li>
 							</ul>
 						</ReactBootStrap.Card.Body>
@@ -72,7 +72,7 @@ class AboutMeAccordian extends Component {
 						<ReactBootStrap.Card.Body
                         className="Accordian_Body">
                         I enjoy collaborating with and learning from other software developers. Proponent of a communicative, team-based approach
-                    to problem-solving. Diversity of thought yields the best and most creative solutions to the problems that we face.
+                    to problem solving. Diversity of thought yields the best and most creative solutions to the problems that we face.
 						</ReactBootStrap.Card.Body>
 					</ReactBootStrap.Accordion.Collapse>
 				</ReactBootStrap.Card>

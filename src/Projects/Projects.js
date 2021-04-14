@@ -16,8 +16,8 @@ class Projects extends Component {
 						github={`https://github.com/sean21johnson/AddressHero-Client `}
 						live={`https://addresshero-client.vercel.app`}
 						description={`Address Hero was created to help people store their contacts' addresses. Furthermore, it was designed to keep track of cards that users send in the mail by logging the event
-                                each time a card is sent on the user's personal timeline. Address Hero was born out of necessity while planning my own wedding. I needed somewhere to store people's addresses and to keep track 
-                                of the RSVP's we had sent in the mail. This project taught me that I could actually use my web development skills to build tools that make my life easier.`}
+                                each time a card is sent on the user's personal timeline. The idea for Address Hero was born while planning my wedding. I needed somewhere to store people's addresses and to keep track 
+                                of the RSVP's we had sent in the mail. This application taught me the importance of prudently selecting props to facilitate component reusability.`}
 						techstack={`React, NodeJS, Express, PostgreSQL, Jest, Mocha`}
 					/>
 					<ProjectItem

@@ -27,6 +27,10 @@ class TechSkills extends Component {
 							title={`React`}
 						/>
 						<TechSkillsItem
+							image={`https://imgur.com/SqQAIoS.jpg`}
+							title={`Bootstrap`}
+						/>
+						<TechSkillsItem
 							image={`https://imgur.com/dUw9l8p.jpg`}
 							title={`NodeJS`}
 						/>
@@ -40,7 +44,7 @@ class TechSkills extends Component {
 						/>
 						<TechSkillsItem
 							image={`https://imgur.com/ZmqYzcK.jpg`}
-							title={`Mocha`}
+							title={`Mocha/Chai`}
 						/>
 						<TechSkillsItem
 							image={`https://imgur.com/QBlvy8i.jpg`}
