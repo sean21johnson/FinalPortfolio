@@ -12,8 +12,8 @@
 
 img.Personal_Pic {
 	width: 100%;
-	border-radius: 7px;
-	box-shadow: 2px 2px 10px 2px rgb(165, 165, 165);
+	border-radius: .25rem;
+	box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
 }
 
 .Personal_Pic_Div {
@@ -29,23 +29,24 @@ img.Personal_Pic {
 
 h1.Main_Name {
 	font-size: 25px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	margin-top: 0px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 14px;
 	color: rgb(250, 138, 1);
-	padding-top: 5px;
+	margin-bottom: 15px;
+	letter-spacing: .5px;
 }
 
 .PhotoSummary_Bio {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 1px 1px 10px 1px rgb(165, 165, 165);
-	border-radius: 7px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	border-radius: 0 0 .25rem .25rem;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -132,11 +133,11 @@ button.logo_button {
 	}
 
 	h1.Main_Name {
-		font-size: 35px;
+		font-size: 32px;
 	}
 
 	h3 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.PhotoSummary_Paragraph {

@@ -1,5 +1,6 @@
 {
   "name": "final-portfolio",
+  "homepage": "http://www.seanjohnsondev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
