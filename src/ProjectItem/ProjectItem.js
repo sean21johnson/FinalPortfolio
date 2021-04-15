@@ -25,16 +25,17 @@ class ProjectItem extends Component {
 						</p>
 					</div>
 					<div className="ProjectItem_Info_Buttons">
+						<div className="Live_Link">
 						<a
-							className="Live_Link"
 							href={live}
 							target="_blank"
 							rel="noreferrer"
 						>
 							<button className="Live_Button">VIEW LIVE</button>
 						</a>
+						</div>
+						<div className="Repo_Link">
 						<a
-							className="Repo_Link"
 							href={github}
 							target="_blank"
 							rel="noreferrer"
@@ -47,6 +48,7 @@ class ProjectItem extends Component {
 								REPO
 							</button>
 						</a>
+						</div>
 					</div>
 				</div>
 			</div>

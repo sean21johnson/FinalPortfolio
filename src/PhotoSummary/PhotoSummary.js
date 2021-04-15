@@ -29,8 +29,8 @@ class PhotoSummary extends Component {
 							communication and interpersonal skills.
 						</p>
 						<div className="PhotoSummary_Icons">
+							<div className="linkedin_logo">
 							<a
-								className="linkedin_logo"
 								href="https://linkedin.com/in/seanjohnson220"
 								target="_blank"
 								rel="noreferrer"
@@ -40,8 +40,9 @@ class PhotoSummary extends Component {
 								</button>
 								<span className="sr-only">Visit https://linkedin.com/in/seanjohnson220</span>
 							</a>
+							</div>
+							<div className="email_logo">
 							<a
-								className="email_logo"
 								href="mailto:seanjohnson220@gmail.com"
 								target="_blank"
 								rel="noreferrer"
@@ -54,8 +55,9 @@ class PhotoSummary extends Component {
 								</button>
 								<span className="sr-only">Send mail to seanjohnson220@gmail.com</span>
 							</a>
+							</div>
+							<div className="github_logo">
 							<a
-								className="github_logo"
 								href="https://github.com/sean21johnson"
 								target="_blank"
 								rel="noreferrer"
@@ -65,6 +67,7 @@ class PhotoSummary extends Component {
 								</button>
 								<span className="sr-only">Visit https://github.com/sean21johnson</span>
 							</a>
+							</div>
 						</div>
 					</div>
 				</article>

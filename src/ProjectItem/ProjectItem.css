@@ -20,6 +20,10 @@ h5 {
 	margin-bottom: 15px;
 }
 
+.ProjectItem_Info_Buttons {
+	display: flex;
+}
+
 .ProjectItem_Info_Div {
 	display: flex;
 	flex-direction: column;
@@ -49,12 +53,8 @@ strong.Tech_strong {
 	color: black;
 }
 
-button.Live_Button {
-	margin-right: 25px;
-}
-
-button.Repo_Button {
-	margin-left: 25px;
+.Live_Link {
+	padding-right: 50px;
 }
 
 button.Repo_Button,
@@ -66,14 +66,9 @@ button.Live_Button {
 	background-color: #ff9800;
 	border-radius: 10em;
 	border: 0px solid white;
-	box-shadow: 2px 2px 10px 2px lightgrey;
 	outline: none;
 	cursor: pointer;
 	color: white;
-}
-
-button:hover {
-	box-shadow: 2px 2px 10px 2px grey;
 }
 
 .ProjectItem_Info_Description {
