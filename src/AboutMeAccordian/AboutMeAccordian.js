@@ -18,7 +18,7 @@ class AboutMeAccordian extends Component {
 					<ReactBootStrap.Accordion.Collapse eventKey="0">
 						<ReactBootStrap.Card.Body className="Accordian_Body">
 							Software developer currently based in Manhattan, New York who is
-							skilled in writing clean, testable and thoroughly documented
+							skilled in writing clean, testable, and thoroughly documented
 							code. I am actively seeking an opportunity to join an organization
 							whose mission aligns with my values and interests. My dedication to learning,
 							building, and making a positive impact will add value to your organization immediately and ongoing.
