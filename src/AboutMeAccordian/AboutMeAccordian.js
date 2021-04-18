@@ -101,7 +101,7 @@ class AboutMeAccordian extends Component {
 								</li>
 								<li>Lifelong passion for the game of basketball</li>
 								<li>Fan of the Brooklyn Nets & the New York Jets</li>
-								<li>Enjoy exercising, traveling and reading</li>
+								<li>Enjoy exercising, traveling, and reading</li>
 							</ul>
 						</ReactBootStrap.Card.Body>
 					</ReactBootStrap.Accordion.Collapse>
