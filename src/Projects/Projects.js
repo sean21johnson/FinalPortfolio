@@ -15,7 +15,7 @@ class Projects extends Component {
 						title={`Address Hero`}
 						github={`https://github.com/sean21johnson/AddressHero-Client `}
 						live={`https://addresshero-client.vercel.app`}
-						description={`Address Hero is a useful application for people who send cards in the mail. It was created to help users store the addresses of their contacts and a timeline component was built to keep track of cards that users have sent historically. Throughout building this application, I focused on identifying opportunities to further drive efficiency in the development process. With this in mind, I learned the importance of prudently selecting props when building reusable React components to facilitate an application's flexibility & scalability.`}
+						description={`Address Hero is a useful application for people who send cards in the mail. It was created to help users store the addresses of their contacts and a timeline component was built to keep track of cards that users have sent historically. Throughout building this application, I focused on identifying opportunities to further drive efficiency in the development process. With this in mind, I learned the importance of prudently selecting props when building reusable React components to enhance an application's flexibility & scalability.`}
 						techstack={`React, NodeJS, Express, PostgreSQL, Jest, Mocha`}
 					/>
 					<ProjectItem
