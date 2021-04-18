@@ -23,10 +23,7 @@ class PhotoSummary extends Component {
 						<p className="PhotoSummary_Paragraph">
 							Full stack software developer who consistently delivers breakthrough
 							results by utilizing creative problem-solving approaches,
-							disciplined processes, and a resolute work ethic. Team-oriented
-							leader who builds outstanding relationships with internal
-							stakeholders and external clients by leveraging highly effective
-							communication and interpersonal skills.
+							disciplined processes, and a resolute work ethic. I am experienced in modern toolsets, project management, and effectively interacting both with stakeholders and other developers.
 						</p>
 						<div className="PhotoSummary_Icons">
 							<div className="linkedin_logo">

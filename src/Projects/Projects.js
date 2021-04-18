@@ -15,9 +15,7 @@ class Projects extends Component {
 						title={`Address Hero`}
 						github={`https://github.com/sean21johnson/AddressHero-Client `}
 						live={`https://addresshero-client.vercel.app`}
-						description={`Address Hero was created to help people store their contacts' addresses. Furthermore, it was designed to keep track of cards that users send in the mail by logging the event
-                                each time a card is sent on the user's personal timeline. The idea for Address Hero was born while planning my wedding. I needed somewhere to store people's addresses and to keep track 
-                                of the RSVP's we had sent in the mail. This application taught me the importance of prudently selecting props to facilitate component reusability.`}
+						description={`Address Hero is a useful application for people who send cards in the mail. It was created to help users store the addresses of their contacts and a timeline component was built to keep track of cards that users have sent historically. Throughout building this application, I focused on identifying opportunities to further drive efficiency in the development process. With this in mind, I learned the importance of prudently selecting props when building reusable React components to facilitate an application's flexibility & scalability.`}
 						techstack={`React, NodeJS, Express, PostgreSQL, Jest, Mocha`}
 					/>
 					<ProjectItem
@@ -26,8 +24,8 @@ class Projects extends Component {
 						github={`https://github.com/sean21johnson/mangia-client`}
 						live={`https://mangia-client.vercel.app`}
 						description={`Mangia was created to help people create and store memories of their favorite meals. The Mangia UI is centered around the food images that users store in
-                                their meal collections. Click on a picture within your collection to view additional details of your experience or to edit/delete the memory. Building Mangia taught me to think from the user's
-                                perspective when designing an application. It was also the first full-stack application that I built from scratch where I utilized all four CRUD functionalities of persistent storage.`}
+                                their meal collections. Click on a picture within your collection to view additional details of your experience or to edit/delete the memory. Building Mangia taught me how to use all CRUD functionalities of persistent storage and to think from the user's
+                                perspective when designing the UI of an application.`}
 						techstack={`React, NodeJS, Express, PostgreSQL, Jest, Mocha`}
 					/>
 					<ProjectItem
@@ -37,7 +35,7 @@ class Projects extends Component {
 						live={`https://spaced-repetition-client-one.vercel.app/register`}
 						description={`I built Learn More after reading about the spaced repetition learning technique. Users are presented a set of flashcards with Spanish words and have to guess 
                                 the English translation. Newly introduced and more difficult words are shown more frequently, while older and less difficult words are shown less frequently. Implementing the spaced
-                                repetition aspect of the flashcards taught me how to work with a Linked List data structure.`}
+                                repetition aspect of the flashcard presentation taught me how to effectively utilize a Linked List data structure.`}
 						techstack={`React, NodeJS, Express, PostgreSQL, Cypress`}
 					/>
 					<ProjectItem
