@@ -93,7 +93,7 @@ class AboutMeAccordian extends Component {
 							<ul className="Accordian_List">
 								<li>
 									Thinkful Software Engineering Immersive Program 2021 graduate
-									specializing in full stack JavaScript & web development
+									specializing in JavaScript & full stack web development.
 								</li>
 								<li>
 									NYU Stern School of Business 2018 MBA graduate specializing in
