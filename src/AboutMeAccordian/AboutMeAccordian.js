@@ -47,7 +47,7 @@ class AboutMeAccordian extends Component {
 									<strong>Database: </strong>SQL(mySQL)
 								</li>
 								<li>
-									<strong>Hosting: </strong>Heroku, Vercel
+									<strong>Hosting: </strong>Heroku, Vercel, AWS
 								</li>
 								<li>
 									<strong>Testing: </strong>Jest/Enzyme on the Front End and
