@@ -11,7 +11,7 @@ class Projects extends Component {
 					<h2 className="Projects_Header">Recent Projects</h2>
 					<div className="Projects_List"></div>
 					<ProjectItem
-						image={`https://imgur.com/XDi088V.jpg`}
+						image={`https://imgur.com/b8fWIpt.jpg`}
 						title={`Address Hero`}
 						github={`https://github.com/sean21johnson/AddressHero-Client `}
 						live={`https://addresshero-client.vercel.app`}
