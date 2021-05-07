@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as ReactBootStrap from "react-bootstrap";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Resume from "../Resume/SeanJohnson.Resume.pdf"
@@ -45,6 +45,9 @@ class NavBar extends Component {
 						</ReactBootStrap.Nav.Link>
 						<ReactBootStrap.Nav.Link href="https://github.com/sean21johnson" target="blank">
 							<FontAwesomeIcon className="nav-logo" icon={faGithub}/>
+						</ReactBootStrap.Nav.Link>
+						<ReactBootStrap.Nav.Link href="https://twitter.com/Sean21Johnson" target="blank">
+							<FontAwesomeIcon className="nav-logo" icon={faTwitter}/>
 						</ReactBootStrap.Nav.Link>
 					</ReactBootStrap.Nav>
 				</ReactBootStrap.Navbar.Collapse>

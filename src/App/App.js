@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Footer from "./../Footer/Footer";
-import "./App.css";
 import PhotoSummary from "./../PhotoSummary/PhotoSummary";
 import TechSkills from "./../TechSkills/TechSkills";
 import Projects from "./../Projects/Projects";
 import NavBar from './../NavBar/NavBar';
 import AboutMeAccordian from './../AboutMeAccordian/AboutMeAccordian';
+import MyTwitter from './../MyTwitter/MyTwitter';
+import "./App.css";
 
 class App extends Component {
 	state = {};
@@ -17,8 +18,10 @@ class App extends Component {
 					<article id="About_Me">
 						<div className="TopArea">
 							<PhotoSummary></PhotoSummary>
+							<div className="Top_Right">
 							<AboutMeAccordian></AboutMeAccordian>
-							{/* <AboutMe></AboutMe> */}
+							<MyTwitter></MyTwitter>
+							</div>
 						</div>
 					</article>
 					<TechSkills></TechSkills>

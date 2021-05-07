@@ -34,6 +34,7 @@ li {
     .theAccordian {
         width: 500px;
         margin-left: 25px;
+        margin-top: 20px;
     }
 
     .Accordian_Header {
@@ -42,5 +43,9 @@ li {
 
     .Accordian_Body {
         font-size: 18px;
+    }
+
+    .Top_Right {
+        margin-left: 50px;
     }
 }
