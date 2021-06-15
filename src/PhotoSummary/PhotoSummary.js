@@ -21,7 +21,7 @@ class PhotoSummary extends Component {
 						<h1 className="Main_Name"><strong>Sean Johnson</strong></h1>
 						<h3><strong>Software Developer</strong></h3>
 						<p className="PhotoSummary_Paragraph">
-							Full stack software developer who consistently delivers breakthrough
+							Web developer who consistently delivers breakthrough
 							results by utilizing creative problem-solving approaches,
 							disciplined processes, and a resolute work ethic. I am experienced in modern toolsets, project management, and effectively interacting both with stakeholders and other developers.
 						</p>
