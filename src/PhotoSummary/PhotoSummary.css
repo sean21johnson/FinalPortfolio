@@ -25,6 +25,7 @@ img.Personal_Pic {
 	margin-left: auto;
 	margin-right: auto;
 	width: 400px;
+	position: relative;
 }
 
 h1.Main_Name {

@@ -13,6 +13,11 @@ div.Project_Item {
 	padding-bottom: 65px;
 }
 
+.position {
+	display: flex;
+	justify-content: center;
+}
+
 h5 {
 	text-align: center;
 	font-size: 22px;

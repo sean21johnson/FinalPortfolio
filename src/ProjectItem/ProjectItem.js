@@ -6,18 +6,25 @@ import "./ProjectItem.css";
 class ProjectItem extends Component {
 	state = {};
 	render() {
-		const { image, title, github, live, description, techstack } = this.props;
+		const { image, title, github, live, description, techstack, position, isLink } = this.props;
 
 		return (
 			<div className="Project_Item">
 				<div className="ProjectItem_Image_Div">
 					<img className="Project_Image" src={image} alt={`${title} Pic`}></img>
 				</div>
-				<h5>{title}</h5>
+				<h5>{isLink ? <a href="https://www.zenhub.com/" target="_blank">ZenHub</a> : title}</h5>
+				{position ? 
+					<div className="position">
+						<h3><strong>Frontend Engineer</strong></h3>
+					</div>
+				: null}
 				<div className="ProjectItem_Info_Div">
 					<div className="ProjectItem_Info_Description">
 						<p className="ProjectItem_Paragraph">{description}</p>
 					</div>
+					{github !== null && github !== undefined ?
+					<>
 					<div className="ProjectItem_Info_Tech">
 						<p className="ProjectItem_Paragraph">
 							<strong className="Tech_strong">Tech Stack: </strong>
@@ -50,6 +57,7 @@ class ProjectItem extends Component {
 						</a>
 						</div>
 					</div>
+					</> : null}
 				</div>
 			</div>
 		);

@@ -26,6 +26,9 @@ class NavBar extends Component {
 						<ReactBootStrap.Nav.Link href="#About_Me">
 							About Me
 						</ReactBootStrap.Nav.Link>
+						<ReactBootStrap.Nav.Link href="#Experience">
+							Experience
+						</ReactBootStrap.Nav.Link>
 						<ReactBootStrap.Nav.Link href="#Skills">
 							Skills
 						</ReactBootStrap.Nav.Link>

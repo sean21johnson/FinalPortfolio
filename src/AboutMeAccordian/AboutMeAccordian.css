@@ -30,6 +30,17 @@ li {
     margin-bottom: 7px;
 }
 
+.Role_Header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
 @media all and (min-width: 1000px) {
     .theAccordian {
         width: 500px;

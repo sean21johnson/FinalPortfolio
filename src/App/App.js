@@ -5,6 +5,7 @@ import TechSkills from "./../TechSkills/TechSkills";
 import Projects from "./../Projects/Projects";
 import NavBar from './../NavBar/NavBar';
 import AboutMeAccordian from './../AboutMeAccordian/AboutMeAccordian';
+import Experience from './../Experience/Experience';
 import MyTwitter from './../MyTwitter/MyTwitter';
 import "./App.css";
 
@@ -24,8 +25,10 @@ class App extends Component {
 							</div>
 						</div>
 					</article>
+					<Experience />
 					<TechSkills></TechSkills>
 					<Projects></Projects>
+
 					<Footer></Footer>
 				</section>
 			</>

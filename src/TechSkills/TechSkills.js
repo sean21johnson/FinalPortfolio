@@ -11,6 +11,18 @@ class TechSkills extends Component {
 					<h2 className="TechnicalSkills_Header">Technical Skills</h2>
 					<div className="TechnicalSkills_List">
 						<TechSkillsItem
+							image={`https://imgur.com/Iq1dYKn.jpg`}
+							title={`JavaScript`}
+						/>
+						<TechSkillsItem
+							image={`https://imgur.com/YFOy2Wc.jpg`}
+							title={`React`}
+						/>
+						<TechSkillsItem
+							image={'https://imgur.com/Y4aC5AB.jpg'}
+							title={'TypeScript'}
+						/>
+						<TechSkillsItem
 							image={`https://imgur.com/qICduIw.jpg`}
 							title={`HTML`}
 						/>
@@ -19,12 +31,12 @@ class TechSkills extends Component {
 							title={`CSS`}
 						/>
 						<TechSkillsItem
-							image={`https://imgur.com/Iq1dYKn.jpg`}
-							title={`JavaScript`}
+							image={`https://imgur.com/cRU7LU3.jpg`}
+							title={`Redux`}
 						/>
 						<TechSkillsItem
-							image={`https://imgur.com/YFOy2Wc.jpg`}
-							title={`React`}
+							image={`https://imgur.com/9ZwiudL.jpg`}
+							title={`React Testing Library`}
 						/>
 						<TechSkillsItem
 							image={`https://imgur.com/SqQAIoS.jpg`}

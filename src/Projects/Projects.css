@@ -11,6 +11,10 @@ h2.Projects_Header {
 	margin-right: 15px;
 }
 
+.section_wrapper {
+	background-color: ghostwhite;
+}
+
 @media all and (min-width: 800px) {
 	section.Projects {
 		margin-right: 100px;

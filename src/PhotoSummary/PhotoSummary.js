@@ -12,7 +12,7 @@ class PhotoSummary extends Component {
 				<div className="Personal_Pic_Div">
 					<img
 						className="Personal_Pic"
-						src="https://imgur.com/coyRz4k.jpg"
+						src="https://imgur.com/7Xk4Ee8.jpg"
 						alt="Me with beach town in the background"
 					></img>
 				</div>
@@ -21,9 +21,9 @@ class PhotoSummary extends Component {
 						<h1 className="Main_Name"><strong>Sean Johnson</strong></h1>
 						<h3><strong>Software Developer</strong></h3>
 						<p className="PhotoSummary_Paragraph">
-							Web developer who consistently delivers breakthrough
-							results by utilizing creative problem-solving approaches,
-							disciplined processes, and a resolute work ethic. I am experienced in modern toolsets, project management, and effectively interacting both with stakeholders and other developers.
+						Software developer who consistently delivers breakthrough results by utilizing creative problem-solving 
+						approaches, disciplined processes, and a resolute work ethic. Experienced in modern frontend toolsets, project management, and effective 
+						collaboration both with stakeholders and engineering colleagues.
 						</p>
 						<div className="PhotoSummary_Icons">
 							<div className="linkedin_logo">
