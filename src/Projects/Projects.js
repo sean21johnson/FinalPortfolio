@@ -9,7 +9,7 @@ class Projects extends Component {
 			<div className="section_wrapper">
 				<article id="Projects">
 					<section className="Projects">
-						<h2 className="Projects_Header">Recent Projects</h2>
+						<h2 className="Projects_Header">My Projects</h2>
 						<div className="Projects_List"></div>
 						<ProjectItem
 							image={`https://imgur.com/b8fWIpt.jpg`}
