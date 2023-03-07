@@ -1,45 +1,41 @@
 .small-twitter-timeline {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .big-twitter-timeline {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small-twitter-container {
-    display: flex;
-    margin-top: 50px;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-	border-radius: 0 0 .25rem .25rem;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .big-twitter-container {
-    display: flex;
-    margin-top: 50px;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-	border-radius: 0 0 .25rem .25rem;
-    width: 420px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 68px;
-    display: none;
+  display: flex;
+  margin-top: 50px;
+  width: 420px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 68px;
+  display: none;
 }
 
 @media all and (min-width: 1000px) {
-    .small-twitter-container {
-        display: none;
-    }
+  .small-twitter-container {
+    display: none;
+  }
 
-    .big-twitter-container {
-        display: block;
-        margin-top: 60px;
-    }
+  .big-twitter-container {
+    display: block;
+    margin-top: 60px;
+  }
 }

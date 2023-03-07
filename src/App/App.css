@@ -1,61 +1,61 @@
 body {
-	margin: 0px;
-	font-family: "Open Sans", sans-serif;
-	min-width: 400px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  min-width: 400px;
 }
 
 html {
-	scroll-padding-top: 57px;
+  scroll-padding-top: 57px;
 }
 
 button:active {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 button {
-	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
 button:hover {
-	box-shadow: 1px 1px 5px 1px rgb(163, 163, 163);
+  box-shadow: 1px 1px 5px 1px rgb(163, 163, 163);
 }
 
-div.TopArea {
-	padding-top: 40px;
-	margin-bottom: 60px;
-	padding-top: 50px;
+.about-me-container {
+  padding-top: 40px;
+  margin-bottom: 60px;
+  padding-top: 50px;
 }
 
 @media all and (min-width: 500px) {
-	div.TopArea {
-		width: 500px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .about-me-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media all and (min-width: 769px) {
-	div.TopArea {
-		padding-top: 60px;
-		width: 800px;
-		display: flex;
-		flex-direction: row;
-		margin-left: auto;
-		margin-right: auto;
-		padding-bottom: 70px;
-		align-items: center;
-	}
+  .about-me-container {
+    padding-top: 60px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    align-items: center;
+  }
 }
 
 @media all and (min-width: 1000px) {
-	div.TopArea {
-		padding-top: 90px;
-		width: 1100px;
-		display: flex;
-		flex-direction: row;
-		margin-left: auto;
-		margin-right: auto;
-		padding-bottom: 80px;
-		align-items: center;
-	}
+  .about-me-container {
+    padding-top: 90px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    align-items: center;
+  }
 }

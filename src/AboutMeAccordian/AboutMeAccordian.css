@@ -1,62 +1,60 @@
-.theAccordian {
-    width: 300px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    border-radius: 7px;
-    cursor: pointer;
-    height: 100%;
+.accordion {
+  width: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 7px;
+  cursor: pointer;
+  height: 100%;
 }
 
 p.paragraph_italics {
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
-.Accordian_Header {
-    font-size: 18px;
-    color: ghostwhite;
-	background-color: #42a5f5;
+.accordion-header {
+  font-size: 18px;
+  color: ghostwhite;
+  background-color: #42a5f5;
 }
 
-.Accordian_Body {
-    font-size: 14px;
+.accordion-body {
+  font-size: 14px;
 }
 
 li {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
-.Role_Header {
-    font-size: 16px;
-    font-weight: bold;
+.role-header {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-
 @media all and (min-width: 1000px) {
-    .theAccordian {
-        width: 500px;
-        margin-left: 25px;
-        margin-top: 20px;
-    }
+  .accordion {
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
 
-    .Accordian_Header {
-        font-size: 22px;
-    }
+  .accordion-header {
+    font-size: 22px;
+  }
 
-    .Accordian_Body {
-        font-size: 18px;
-    }
+  .accordion-body {
+    font-size: 18px;
+  }
 
-    .Top_Right {
-        margin-left: 50px;
-    }
+  .accordion-tweets-container {
+    margin-left: 50px;
+  }
 }

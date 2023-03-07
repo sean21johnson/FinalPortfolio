@@ -1,43 +1,43 @@
-.AboutMeParagraphItem {
-	margin-left: auto;
-	margin-right: auto;
-	box-shadow: 1px 1px 5px 1px lightgrey;
+.about-me-paragraph-item {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 5px 1px lightgrey;
 }
 
-.Item_Header {
-	background-color: #42a5f5;
-	color: white;
-	font-size: 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border-radius: 3px;
+.item-header {
+  background-color: #42a5f5;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 3px;
 }
 
 h4 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 15px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.AboutMe_Arrow {
-	padding-right: 15px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-size: 22px;
-	color: white;
+.about-me-arrow {
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 22px;
+  color: white;
 }
 
-.Item_Description {
-	font-size: 14px;
-	line-height: 1.5;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: rgb(99, 99, 99);
+.item-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(99, 99, 99);
 }
