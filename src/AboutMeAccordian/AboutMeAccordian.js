@@ -99,8 +99,8 @@ class AboutMeAccordian extends Component {
               communication and interpersonal skills. I enjoy collaborating with
               and learning from other developers, and am a proponent of a
               communicative, team-based approach to problem solving. Diversity
-              of thought yields the best and most creative solutions to the
-              problems that we face.
+              of thought yields the best and most creative solutions to
+              challenging technical problems.
             </ReactBootStrap.Card.Body>
           </ReactBootStrap.Accordion.Collapse>
         </ReactBootStrap.Card>
