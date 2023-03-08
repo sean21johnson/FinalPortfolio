@@ -26,6 +26,7 @@ img.headshot {
   margin-right: auto;
   width: 400px;
   position: relative;
+  align-self: flex-start;
 }
 
 h1.author {
