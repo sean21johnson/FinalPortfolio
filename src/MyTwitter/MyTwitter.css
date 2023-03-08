@@ -1,16 +1,16 @@
-.small-twitter-timeline {
+.mobile-twitter-timeline {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
-.big-twitter-timeline {
+.twitter-timeline {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
-.small-twitter-container {
+.mobile-twitter-container {
   display: flex;
   margin-top: 50px;
   width: 300px;
@@ -18,7 +18,7 @@
   margin-right: auto;
 }
 
-.big-twitter-container {
+.twitter-container {
   display: flex;
   margin-top: 50px;
   width: 420px;
@@ -30,11 +30,11 @@
 }
 
 @media all and (min-width: 1000px) {
-  .small-twitter-container {
+  .mobile-twitter-container {
     display: none;
   }
 
-  .big-twitter-container {
+  .twitter-container {
     display: block;
     margin-top: 60px;
   }

@@ -7,9 +7,9 @@ class TechSkills extends Component {
   render() {
     return (
       <article id="skills">
-        <section className="TechSkills">
-          <h2 className="TechnicalSkills_Header">Technical Skills</h2>
-          <div className="TechnicalSkills_List">
+        <section className="tech-skills">
+          <h2 className="tech-skills-title">Technical Skills</h2>
+          <div className="tech-skills-list">
             <TechSkillsItem
               image={`https://imgur.com/Iq1dYKn.jpg`}
               title={`JavaScript`}
